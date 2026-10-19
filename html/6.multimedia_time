@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Multimèdia Time</title>
+</head>
+
+<body>
+    <h1>El meu racó multimèdia</h1>
+
+    <section>
+        <h2>El meu vídeo favorit</h2>
+
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/ID_DEL_TEU_VIDEO"
+            title="El meu vídeo favorit de YouTube"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+
+        <p>
+            He triat aquest vídeo perquè em fa riure cada vegada que el veig
+            i m'ajuda a desconnectar després d'un dia llarg.
+        </p>
+    </section>
+
+    <section>
+        <h2>La meva cançó preferida</h2>
+
+        <audio controls>
+            <source src="../audio/canco.mp3" type="audio/mpeg">
+            El teu navegador no suporta l'element d'àudio.
+        </audio>
+
+        <p>
+            He triat aquesta cançó perquè em dona energia i sempre
+            me la poso quan estudio o faig exercici.
+        </p>
+    </section>
+
+    <section>
+        <h2>Vídeo propi (opcional)</h2>
+
+        <video controls width="560">
+            <source src="../video/video.mp4" type="video/mp4">
+            El teu navegador no suporta l'element de vídeo.
+        </video>
+    </section>
+</body>
+
+</html>
