@@ -33,7 +33,6 @@
 
         <audio controls>
             <source src="../audio/canco.mp3" type="audio/mpeg">
-            El teu navegador no suporta l'element d'àudio.
         </audio>
 
         <p>
