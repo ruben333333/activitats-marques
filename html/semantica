@@ -4,13 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cinema Galàctic</title>
+    <title>Crònica Futbolera</title>
 </head>
 
 <body>
     <header>
-        <h1>Cinema Galàctic</h1>
-        <p>El teu racó d'articles sobre ciència-ficció</p>
+        <h1>Crònica Futbolera</h1>
+        <p>El teu racó d'articles sobre el món del futbol</p>
 
         <nav>
             <ul>
@@ -26,27 +26,40 @@
 
             <article>
                 <header>
-                    <h3>Per què Blade Runner continua sent un clàssic</h3>
-                    <p>Publicat per <strong>Ruben</strong> el <time datetime="2026-10-15">19 d'octubre de 2026</time></p>
+                    <h3>Gran remuntada del Club Esportiu Estrella</h3>
+                    <p>Publicat per <strong>Ruben</strong> el <time datetime="2026-10-15">15 d'octubre de 2026</time></p>
                 </header>
                 <p>
-                    La pel·lícula de Ridley Scott va plantejar preguntes sobre la
-                    identitat i la humanitat que encara avui ens fan pensar.
+                    L'equip va capgirar un 0-2 en els últims vint minuts
+                    i va acabar guanyant 3-2 davant d'un estadi ple.
                 </p>
             </article>
 
             <article>
                 <header>
-                    <h3>Els millors viatges espacials del cinema</h3>
-                    <p>Publicat per <strong>Ruben</strong> el <time datetime="2026-10-12">12 d'octubre de 2026</time></p>
+                    <h3>Les claus d'una bona defensa</h3>
+                    <p>Publicat per <strong>Ruben</strong> el <time datetime="2026-10-15">15 d'octubre de 2026</time></p>
                 </header>
                 <p>
-                    Des de 2001: Una odissea de l'espai fins a Interstellar,
-                    repassem les aventures més inoblidables entre les estrelles.
+                    La comunicació entre els defenses, la posició al camp
+                    i l'anticipació són essencials per mantenir la porteria a zero.
                 </p>
             </article>
         </section>
 
         <aside>
             <h2>Sabies que...?</h2>
-            <p>El primer film de ciència-ficció,
+            <p>Un partit de futbol professional dura 90 minuts, dividits en dues parts de 45.</p>
+        </aside>
+    </main>
+
+    <footer id="contacte">
+        <section>
+            <h2>Contacte</h2>
+            <p>Escriu-nos a <a href="mailto:info@cronicafutbolera.example">info@cronicafutbolera.example</a></p>
+        </section>
+        <p><small>&copy; 2026 Crònica Futbolera. Tots els drets reservats.</small></p>
+    </footer>
+</body>
+
+</html>
