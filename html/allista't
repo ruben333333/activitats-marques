@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Les meves preferències</title>
+</head>
+
+<body>
+    <h1>Una mini-biografia visual</h1>
+    <p>Aquestes són les coses que més m'agraden.</p>
+
+    <h2>Música</h2>
+    <ul>
+        <li>Rock català</li>
+        <li>Pop dels anys 80</li>
+        <li>Música electrònica</li>
+        <li>Bandes sonores de pel·lícules</li>
+    </ul>
+
+    <h2>Pel·lícules</h2>
+    <ul>
+        <li>Blade Runner</li>
+        <li>El Senyor dels Anells</li>
+        <li>Interstellar</li>
+        <li>Tortugues Ninja</li>
+    </ul>
+
+    <h2>Menjars</h2>
+    <ul>
+        <li>Pizza</li>
+        <li>Paella</li>
+        <li>Escalivada</li>
+        <li>Crema catalana</li>
+    </ul>
+
+    <h2>Els meus 3 objectius d'aquest any</h2>
+    <ol>
+        <li>Acabar tots els exercicis d'HTML i CSS</li>
+        <li>Crear la meva primera pàgina web completa</li>
+        <li>Aprendre els fonaments de JavaScript</li>
+    </ol>
+</body>
+
+</html>
