@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Legend of Link</title>
+</head>
+
+<body>
+    <header id="dalt">
+        <h1>The Legend of Link</h1>
+        <p>Les meves webs preferides.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#webs">Anar a les meves webs</a></li>
+            <li><a href="#baix">Saltar al final de la pàgina</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="webs">
+            <h2>Les tres webs que més visito</h2>
+
+            <ul>
+                <li>
+                    <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+                        Aquí tens el meu cinema particular: YouTube
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.wikipedia.org" target="_blank" rel="noopener noreferrer">
+                        Aquí tens la meva biblioteca infinita: Viquipèdia
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.fcbarcelona.cat" target="_blank" rel="noopener noreferrer">
+                        Aquí tens el meu refugi futbolero: FC Barcelona
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Un enllaç de correu</h2>
+            <p>
+                Si vols dir-me alguna cosa, <a href="mailto:josep@exemple.cat">escriu-me un correu</a>.
+            </p>
+        </section>
+
+        <!-- Aquest contingut fa que la pàgina sigui prou llarga per notar el salt -->
+        <section>
+            <h2>Una mica d'espai</h2>
+            <p style="margin-bottom: 800px;">
+                Aquest espai buit serveix perquè es noti el salt cap a baix i cap a dalt.
+            </p>
+        </section>
+    </main>
+
+    <footer id="baix">
+        <p>Has arribat al final de la pàgina!</p>
+        <p><a href="#dalt">Tornar a dalt &uarr;</a></p>
+    </footer>
+</body>
+
+</html>
