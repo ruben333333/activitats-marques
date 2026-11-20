@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validant sense JS</title>
+</head>
+<body>
+
+  <header>
+    <h1>Formulari amb validació</h1>
+    <p>El navegador comprova les dades abans d'enviar-les, sense JavaScript.</p>
+  </header>
+
+  <main>
+    <form action="#" method="post">
+
+      <p>
+        <label for="nom">Nom (obligatori):</label><br>
+        <input type="text" id="nom" name="nom" placeholder="Escriu el teu nom"
+               required maxlength="50">
+      </p>
+
+      <p>
+        <label for="correu">Correu electrònic:</label><br>
+        <input type="email" id="correu" name="correu" placeholder="nom@exemple.cat"
+               required>
+      </p>
+
+      <p>
+        <label for="contrasenya">Contrasenya (mínim 8 caràcters):</label><br>
+        <input type="password" id="contrasenya" name="contrasenya"
+               placeholder="Mínim 8 caràcters" required minlength="8">
+      </p>
+
+      <p>
+        <label for="telefon">Telèfon (9 dígits):</label><br>
+        <input type="tel" id="telefon" name="telefon" placeholder="612345678"
+               required pattern="[0-9]{9}" maxlength="9"
+               title="Introdueix exactament 9 dígits numèrics">
+      </p>
+
+      <h2>Altres atributs per experimentar</h2>
+
+      <p>
+        <label for="edat">Edat (entre 16 i 99):</label><br>
+        <input type="number" id="edat" name="edat" min="16" max="99" step="1">
+      </p>
+
+      <p>
+        <label for="quantitat">Quantitat (de 5 en 5, entre 0 i 50):</label><br>
+        <input type="number" id="quantitat" name="quantitat" min="0" max="50" step="5">
+      </p>
+
+      <p>
+        <button type="submit">Envia</button>
+      </p>
+
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 · Exercici 11</p>
+  </footer>
+
+</body>
+</html>
