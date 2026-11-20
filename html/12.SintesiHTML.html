@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La meva pàgina personal</title>
+</head>
+<body>
+
+  <header>
+    <h1>La meva pàgina personal</h1>
+    <p>
+      Benvinguts! Aquí trobareu el meu horari, les meves tasques,
+      un vídeo que m'encanta i un formulari per escriure'm.
+    </p>
+    <nav>
+      <a href="#horari">Horari</a> |
+      <a href="#video">Vídeo</a> |
+      <a href="#tasques">Tasques</a> |
+      <a href="#contacte">Contacte</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="horari">
+      <h2>El meu horari setmanal</h2>
+      <table border="1">
+        <caption>Horari de classes i activitats</caption>
+        <thead>
+          <tr>
+            <th>Hora</th>
+            <th>Dilluns</th>
+            <th>Dimarts</th>
+            <th>Dimecres</th>
+            <th>Dijous</th>
+            <th>Divendres</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>9:00 - 11:00</td>
+            <td>HTML5</td>
+            <td>Anglès</td>
+            <td>HTML5</td>
+            <td>Mates</td>
+            <td>Projecte</td>
+          </tr>
+          <tr>
+            <td>11:30 - 13:30</td>
+            <td>Mates</td>
+            <td>HTML5</td>
+            <td>Anglès</td>
+            <td>HTML5</td>
+            <td>Projecte</td>
+          </tr>
+          <tr>
+            <td>16:00 - 18:00</td>
+            <td>Esport</td>
+            <td>Lectura</td>
+            <td>Esport</td>
+            <td>Lectura</td>
+            <td>Cinema</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="video">
+      <h2>El meu vídeo preferit</h2>
+      <p>
+        Cada cop que començo un projecte nou, em ve de gust mirar aquest vídeo:
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener">
+          mira'l a YouTube
+        </a>.
+      </p>
+    </section>
+
+    <section id="tasques">
+      <h2>Les meves tasques pendents</h2>
+      <ul>
+        <li>Acabar els exercicis d'HTML5</li>
+        <li>Pujar els projectes a GitHub</li>
+        <li>Fer una excursió pel Montseny</li>
+        <li>Aprendre CSS</li>
+      </ul>
+
+      <h3>Les meves preferències</h3>
+      <ol>
+        <li>Pizza</li>
+        <li>Cafè</li>
+        <li>Pel·lícules</li>
+      </ol>
+    </section>
+
+    <section id="contacte">
+      <h2>Contacta'm</h2>
+      <form action="#" method="post">
+
+        <p>
+          <label for="nom">Nom:</label><br>
+          <input type="text" id="nom" name="nom" placeholder="Escriu el teu nom">
+        </p>
+
+        <p>
+          <label for="correu">Correu electrònic:</label><br>
+          <input type="email" id="correu" name="correu" placeholder="Escriu el teu correu electrònic">
+        </p>
+
+        <p>
+          <label for="missatge">Missatge:</label><br>
+          <textarea id="missatge" name="missatge" rows="6" cols="40" placeholder="Escriu aquí el teu missatge"></textarea>
+        </p>
+
+        <p>
+          <button type="submit">Envia</button>
+        </p>
+
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 · Exercici 12</p>
+  </footer>
+
+</body>
+</html>
